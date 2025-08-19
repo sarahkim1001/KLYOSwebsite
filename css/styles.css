@@ -230,11 +230,10 @@ h1, h2 {
     }
 
     .nav-menu {
+        display:flex;
         position: absolute;
-        top: 100%;
-        left: 50%;
         transform: translateX(-50%);
-        width: 50vw;
+        width: 30vw;
         background: #091940;
         flex-direction: column;
         padding: 20px 0;
